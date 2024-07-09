@@ -24,9 +24,9 @@ docker run \
     sickcodes/docker-osx:auto
 ```
 
-Installs pre installed Catalina from [https://github.com/sickcodes/Docker-OSX](https://github.com/sickcodes/Docker-OSX)
+This oneliner installs pre installed Catalina from [https://github.com/sickcodes/Docker-OSX](https://github.com/sickcodes/Docker-OSX)
 
-After this when macOS start you will need to go to the docker container and change the following line for the mouse to work:
+After this when macOS starts you will need to go to the docker container and change the following line for the mouse to work:
 
 ```bash
 docker exec -it [container id] bash
